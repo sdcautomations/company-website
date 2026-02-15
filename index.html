@@ -52,11 +52,11 @@
       }
     </style>
   </head>
-  <body class="antialiased bg-grid">
+  <body class="antialiased bg-grid overflow-x-hidden w-full">
     <nav
-      class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b-2 border-black px-6 md:px-12 py-6 flex justify-between items-center"
+      class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b-2 border-black px-6 md:px-12 py-4 md:py-6 flex justify-between items-center"
     >
-      <div class="text-2xl font-black tracking-tighter uppercase">
+      <div class="text-xl md:text-2xl font-black tracking-tighter uppercase">
         SDC<span class="font-normal text-gray-500">Automations</span>
       </div>
       <div
@@ -73,21 +73,21 @@
       </div>
       <a
         href="tel:48784091155"
-        class="text-xs font-black border-2 border-black px-4 py-2 hover:bg-black hover:text-white transition-all"
+        class="text-[10px] md:text-xs font-black border-2 border-black px-3 py-2 md:px-4 md:py-2 hover:bg-black hover:text-white transition-all whitespace-nowrap"
         >+48 784 091 155</a
       >
     </nav>
 
     <section
-      class="min-h-screen flex flex-col justify-end px-6 md:px-12 pb-24 border-b-2 border-black bg-white"
+      class="min-h-screen flex flex-col justify-end px-6 md:px-12 pb-12 md:pb-24 border-b-2 border-black bg-white pt-32"
     >
       <div data-aos="fade-up" data-aos-duration="1000">
         <span
-          class="inline-block px-3 py-1 bg-black text-white text-xs font-bold mb-6"
+          class="inline-block px-3 py-1 bg-black text-white text-[10px] md:text-xs font-bold mb-6"
           >WEB ENGINEERING</span
         >
         <h1
-          class="text-[12vw] leading-[0.8] font-black uppercase tracking-tighter mb-8"
+          class="text-[12vw] leading-[0.8] font-black uppercase tracking-tighter mb-8 break-words"
         >
           Pixel. <br />
           Code. <br />
@@ -95,15 +95,15 @@
           Scale.
         </h1>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-end">
-          <p class="text-2xl font-medium max-w-xl">
+          <p class="text-lg md:text-2xl font-medium max-w-xl">
             Tworzymy ultraszybkie strony internetowe. Łączymy surowy design z
             niezawodnym kodem i dedykowanym hostingiem.
           </p>
-          <div class="text-right">
+          <div class="text-left md:text-right">
             <p class="text-sm font-bold uppercase tracking-widest mb-2">
               Technologia
             </p>
-            <p class="text-xl">HTML5 / Tailwind / JS / Cloud</p>
+            <p class="text-lg md:text-xl">HTML5 / Tailwind / JS / Cloud</p>
           </div>
         </div>
       </div>
@@ -112,50 +112,67 @@
     <section
       class="border-b-2 border-black grid grid-cols-2 md:grid-cols-4 bg-black text-white"
     >
-      <div class="p-8 border-r border-white/20 text-center">
-        <div class="text-4xl font-black mb-2">100/100</div>
-        <div class="text-[10px] uppercase tracking-widest opacity-60">
+      <div
+        class="p-6 md:p-8 border-r border-b md:border-b-0 border-white/20 text-center"
+      >
+        <div class="text-3xl md:text-4xl font-black mb-2">100/100</div>
+        <div
+          class="text-[9px] md:text-[10px] uppercase tracking-widest opacity-60"
+        >
           Google Lighthouse Score
         </div>
       </div>
-      <div class="p-8 md:border-r border-white/20 text-center">
-        <div class="text-4xl font-black mb-2">99.9%</div>
-        <div class="text-[10px] uppercase tracking-widest opacity-60">
+      <div
+        class="p-6 md:p-8 md:border-r border-b md:border-b-0 border-white/20 text-center"
+      >
+        <div class="text-3xl md:text-4xl font-black mb-2">99.9%</div>
+        <div
+          class="text-[9px] md:text-[10px] uppercase tracking-widest opacity-60"
+        >
           Uptime serwerów
         </div>
       </div>
-      <div class="p-8 border-r border-white/20 text-center">
-        <div class="text-4xl font-black mb-2">SSL</div>
-        <div class="text-[10px] uppercase tracking-widest opacity-60">
+      <div class="p-6 md:p-8 border-r border-white/20 text-center">
+        <div class="text-3xl md:text-4xl font-black mb-2">SSL</div>
+        <div
+          class="text-[9px] md:text-[10px] uppercase tracking-widest opacity-60"
+        >
           Pełne bezpieczeństwo
         </div>
       </div>
-      <div class="p-8 text-center">
-        <div class="text-4xl font-black mb-2">&lt;0.5s</div>
-        <div class="text-[10px] uppercase tracking-widest opacity-60">
+      <div class="p-6 md:p-8 text-center">
+        <div class="text-3xl md:text-4xl font-black mb-2">&lt;0.5s</div>
+        <div
+          class="text-[9px] md:text-[10px] uppercase tracking-widest opacity-60"
+        >
           Czas ładowania
         </div>
       </div>
     </section>
 
-    <section id="about" class="scroll-margin py-32 px-6 md:px-12 bg-white">
+    <section
+      id="about"
+      class="scroll-margin py-20 md:py-32 px-6 md:px-12 bg-white"
+    >
       <div class="grid grid-cols-1 md:grid-cols-12 gap-12">
         <div class="md:col-span-4" data-aos="fade-right">
           <h2
-            class="text-sm font-black uppercase tracking-[0.4em] mb-8 border-l-4 border-black pl-4"
+            class="text-xs md:text-sm font-black uppercase tracking-[0.4em] mb-8 border-l-4 border-black pl-4"
           >
             O Studio
           </h2>
         </div>
         <div class="md:col-span-8" data-aos="fade-up">
           <p
-            class="text-4xl md:text-6xl font-black leading-tight mb-12 uppercase"
+            class="text-3xl md:text-6xl font-black leading-tight mb-12 uppercase"
           >
             Nie używamy gotowców.
             <span class="text-gray-400">Budujemy Internet</span> na własnych
             zasadach.
           </p>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-lg">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 text-base md:text-lg"
+          >
             <p>
               SDC Automations to one-stop-shop dla Twojej obecności w sieci.
               Odrzucamy zbędne wtyczki i ciężkie motywy. Piszemy czysty, wydajny
@@ -174,36 +191,48 @@
     <section id="services" class="scroll-margin border-t-2 border-black">
       <div class="grid grid-cols-1 md:grid-cols-3">
         <div
-          class="p-12 border-b-2 md:border-b-0 md:border-r-2 border-black bg-white group hover:bg-black hover:text-white transition-all duration-500"
+          class="p-8 md:p-12 border-b-2 md:border-b-0 md:border-r-2 border-black bg-white group hover:bg-black hover:text-white transition-all duration-500"
           data-aos="fade-up"
         >
-          <div class="text-xs font-bold mb-20 tracking-widest">PHASE 01</div>
-          <h3 class="text-4xl font-black uppercase mb-6">Web Design</h3>
-          <p class="opacity-70">
+          <div class="text-xs font-bold mb-12 md:mb-20 tracking-widest">
+            PHASE 01
+          </div>
+          <h3 class="text-3xl md:text-4xl font-black uppercase mb-6">
+            Web Design
+          </h3>
+          <p class="opacity-70 text-sm md:text-base">
             Projektowanie UI/UX. Tworzymy makiety i prototypy z naciskiem na
             konwersję i estetyczny minimalizm.
           </p>
         </div>
         <div
-          class="p-12 border-b-2 md:border-b-0 md:border-r-2 border-black bg-white group hover:bg-black hover:text-white transition-all duration-500"
+          class="p-8 md:p-12 border-b-2 md:border-b-0 md:border-r-2 border-black bg-white group hover:bg-black hover:text-white transition-all duration-500"
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <div class="text-xs font-bold mb-20 tracking-widest">PHASE 02</div>
-          <h3 class="text-4xl font-black uppercase mb-6">Development</h3>
-          <p class="opacity-70">
+          <div class="text-xs font-bold mb-12 md:mb-20 tracking-widest">
+            PHASE 02
+          </div>
+          <h3 class="text-3xl md:text-4xl font-black uppercase mb-6">
+            Development
+          </h3>
+          <p class="opacity-70 text-sm md:text-base">
             Kodowanie. HTML5, CSS3, JavaScript. Responsywne strony RWD, które
             działają idealnie na każdym urządzeniu.
           </p>
         </div>
         <div
-          class="p-12 bg-white group hover:bg-black hover:text-white transition-all duration-500"
+          class="p-8 md:p-12 bg-white group hover:bg-black hover:text-white transition-all duration-500"
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <div class="text-xs font-bold mb-20 tracking-widest">PHASE 03</div>
-          <h3 class="text-4xl font-black uppercase mb-6">Hosting & Care</h3>
-          <p class="opacity-70">
+          <div class="text-xs font-bold mb-12 md:mb-20 tracking-widest">
+            PHASE 03
+          </div>
+          <h3 class="text-3xl md:text-4xl font-black uppercase mb-6">
+            Hosting & Care
+          </h3>
+          <p class="opacity-70 text-sm md:text-base">
             Wdrażamy stronę na szybkie serwery, konfigurujemy domenę, pocztę i
             dbamy o certyfikaty SSL.
           </p>
@@ -213,48 +242,62 @@
 
     <section
       id="process"
-      class="scroll-margin py-32 px-6 md:px-12 bg-black text-white"
+      class="scroll-margin py-20 md:py-32 px-6 md:px-12 bg-black text-white overflow-hidden"
     >
-      <h2 class="text-7xl font-black uppercase mb-24 text-center">
+      <h2
+        class="text-4xl md:text-7xl font-black uppercase mb-16 md:mb-24 text-center"
+      >
         Jak pracujemy
       </h2>
-      <div class="max-w-5xl mx-auto space-y-24">
+      <div class="max-w-5xl mx-auto space-y-16 md:space-y-24">
         <div
-          class="flex flex-col md:flex-row gap-12 items-start"
+          class="flex flex-col md:flex-row gap-6 md:gap-12 items-start"
           data-aos="fade-left"
         >
-          <span class="text-8xl font-black opacity-20">01</span>
+          <span class="text-6xl md:text-8xl font-black opacity-20 leading-none"
+            >01</span
+          >
           <div>
-            <h4 class="text-3xl font-bold uppercase mb-4">Brief & Makieta</h4>
-            <p class="text-xl text-gray-400">
+            <h4 class="text-2xl md:text-3xl font-bold uppercase mb-4">
+              Brief & Makieta
+            </h4>
+            <p class="text-lg md:text-xl text-gray-400">
               Analizujemy Twój biznes. Przygotowujemy projekt graficzny do
               akceptacji przed napisaniem pierwszej linii kodu.
             </p>
           </div>
         </div>
         <div
-          class="flex flex-col md:flex-row gap-12 items-start"
+          class="flex flex-col md:flex-row gap-6 md:gap-12 items-start"
           data-aos="fade-left"
           data-aos-delay="100"
         >
-          <span class="text-8xl font-black opacity-20">02</span>
+          <span class="text-6xl md:text-8xl font-black opacity-20 leading-none"
+            >02</span
+          >
           <div>
-            <h4 class="text-3xl font-bold uppercase mb-4">Kodowanie</h4>
-            <p class="text-xl text-gray-400">
+            <h4 class="text-2xl md:text-3xl font-bold uppercase mb-4">
+              Kodowanie
+            </h4>
+            <p class="text-lg md:text-xl text-gray-400">
               Zamieniamy grafikę w żywy, interaktywny produkt. Optymalizujemy
               obrazy i skrypty pod kątem szybkości.
             </p>
           </div>
         </div>
         <div
-          class="flex flex-col md:flex-row gap-12 items-start"
+          class="flex flex-col md:flex-row gap-6 md:gap-12 items-start"
           data-aos="fade-left"
           data-aos-delay="200"
         >
-          <span class="text-8xl font-black opacity-20">03</span>
+          <span class="text-6xl md:text-8xl font-black opacity-20 leading-none"
+            >03</span
+          >
           <div>
-            <h4 class="text-3xl font-bold uppercase mb-4">Launch & Hosting</h4>
-            <p class="text-xl text-gray-400">
+            <h4 class="text-2xl md:text-3xl font-bold uppercase mb-4">
+              Launch & Hosting
+            </h4>
+            <p class="text-lg md:text-xl text-gray-400">
               Podpinamy domenę, konfigurujemy serwer i przekazujemy Ci gotową,
               zabezpieczoną stronę.
             </p>
@@ -265,31 +308,31 @@
 
     <section
       id="contact"
-      class="scroll-margin py-32 px-6 md:px-12 bg-white border-t-2 border-black"
+      class="scroll-margin py-20 md:py-32 px-6 md:px-12 bg-white border-t-2 border-black"
     >
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
         <div>
-          <h2 class="text-8xl font-black uppercase mb-12">
+          <h2 class="text-5xl md:text-8xl font-black uppercase mb-12">
             Start <br />Project.
           </h2>
           <div class="space-y-6">
-            <p class="text-xl">
+            <p class="text-lg md:text-xl">
               <span class="font-bold block uppercase text-xs mb-1">E-mail</span>
               <a
                 href="mailto:sdcautomations@gmail.com"
-                class="text-3xl font-bold border-b-2 border-black hover:bg-black hover:text-white transition-all"
+                class="text-2xl md:text-3xl font-bold border-b-2 border-black hover:bg-black hover:text-white transition-all break-all"
                 >sdcautomations@gmail.com</a
               >
             </p>
-            <p class="text-xl">
+            <p class="text-lg md:text-xl">
               <span class="font-bold block uppercase text-xs mb-1"
                 >Telefon</span
               >
-              <a href="tel:48784091155" class="text-3xl font-bold"
+              <a href="tel:48784091155" class="text-2xl md:text-3xl font-bold"
                 >+48 784 091 155</a
               >
             </p>
-            <p class="text-xl italic">
+            <p class="text-lg md:text-xl italic">
               <span class="font-bold block uppercase text-xs mb-1 not-italic"
                 >Adres</span
               >
@@ -298,7 +341,7 @@
           </div>
         </div>
         <div
-          class="bg-gray-50 p-8 border-2 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)]"
+          class="bg-gray-50 p-6 md:p-8 border-2 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] max-w-full"
         >
           <form class="space-y-6">
             <div>
@@ -307,7 +350,7 @@
               >
               <input
                 type="text"
-                class="w-full border-2 border-black p-4 focus:bg-black focus:text-white outline-none transition-all"
+                class="w-full border-2 border-black p-4 focus:bg-black focus:text-white outline-none transition-all appearance-none rounded-none"
               />
             </div>
             <div>
@@ -315,7 +358,7 @@
                 >Czego potrzebujesz?</label
               >
               <select
-                class="w-full border-2 border-black p-4 focus:bg-black focus:text-white outline-none transition-all appearance-none"
+                class="w-full border-2 border-black p-4 focus:bg-black focus:text-white outline-none transition-all appearance-none rounded-none bg-white"
               >
                 <option>Nowa strona internetowa</option>
                 <option>Sklep internetowy (E-commerce)</option>
@@ -330,7 +373,7 @@
               <textarea
                 rows="4"
                 placeholder="Opisz krótko swój pomysł..."
-                class="w-full border-2 border-black p-4 focus:bg-black focus:text-white outline-none transition-all"
+                class="w-full border-2 border-black p-4 focus:bg-black focus:text-white outline-none transition-all appearance-none rounded-none"
               ></textarea>
             </div>
             <button
@@ -344,17 +387,19 @@
     </section>
 
     <footer
-      class="bg-white border-t-2 border-black py-12 px-6 md:px-12 flex flex-col md:flex-row justify-between items-end"
+      class="bg-white border-t-2 border-black py-12 px-6 md:px-12 flex flex-col md:flex-row justify-between items-start md:items-end"
     >
       <div>
-        <div class="text-4xl font-black uppercase tracking-tighter mb-4">
+        <div
+          class="text-3xl md:text-4xl font-black uppercase tracking-tighter mb-4"
+        >
           SDC<br />AUTOMATIONS
         </div>
         <p class="text-xs font-bold opacity-50 uppercase">
           We build digital future.
         </p>
       </div>
-      <div class="mt-8 md:mt-0 text-right">
+      <div class="mt-8 md:mt-0 text-left md:text-right w-full md:w-auto">
         <p class="text-xs font-mono">© 2026 SDC AUTOMATIONS</p>
         <p class="text-xs font-mono opacity-50">SKOŁOSZÓW 3GO MAJA 69</p>
         <div class="mt-4 space-x-4">
@@ -372,7 +417,7 @@
       AOS.init({
         duration: 1000,
         once: true,
-        offset: 100,
+        offset: 50, // Zmniejszono offset dla mobile, żeby szybciej łapało
       });
     </script>
   </body>
